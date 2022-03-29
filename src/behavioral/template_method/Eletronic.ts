@@ -7,6 +7,6 @@ export default class Eletronic extends TaxItem {
 	}
 
 	calculateTax(): number {
-		return (this.price * -10)/100;
+		return (this.price * 10)/100;
 	}
 }
